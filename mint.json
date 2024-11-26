@@ -79,7 +79,14 @@
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
+        "api-reference/personas/get-apipersonas",
         "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Playground",
+      "pages" :[
+        "api-reference/playground"
       ]
     }
   ],
