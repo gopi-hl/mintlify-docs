@@ -12488,207 +12488,6 @@
         }
       }
     },
-    "/api/auth/request-login": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/LoginRequest"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/request-join": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AcceptInviteRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AcceptInviteRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/AcceptInviteRequest"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/get-email": {
-      "get": {
-        "tags": [
-          "Auth"
-        ],
-        "parameters": [
-          {
-            "name": "inviteCode",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "uuid"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/request-signup": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SignupRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/SignupRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/SignupRequest"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/complete-signup": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AuthenticateRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AuthenticateRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/AuthenticateRequest"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/authenticate": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AuthenticateRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AuthenticateRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/AuthenticateRequest"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/refresh-credentials": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/auth/revoke-credentials": {
-      "post": {
-        "tags": [
-          "Auth"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/chatbot-conversations": {
       "post": {
         "tags": [
@@ -25090,38 +24889,6 @@
   },
   "components": {
     "schemas": {
-      "AcceptInviteRequest": {
-        "required": [
-          "email",
-          "firstName",
-          "inviteCode",
-          "lastName"
-        ],
-        "type": "object",
-        "properties": {
-          "firstName": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
-          },
-          "lastName": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
-          },
-          "email": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "inviteCode": {
-            "type": "string",
-            "format": "uuid"
-          }
-        },
-        "additionalProperties": false
-      },
       "AiProvider": {
         "enum": [
           0,
@@ -25573,25 +25340,6 @@
           "headerSubHeading": {
             "type": "string",
             "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "AuthenticateRequest": {
-        "required": [
-          "email",
-          "otp"
-        ],
-        "type": "object",
-        "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "otp": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -28661,20 +28409,6 @@
         "type": "integer",
         "format": "int32"
       },
-      "LoginRequest": {
-        "required": [
-          "email"
-        ],
-        "type": "object",
-        "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          }
-        },
-        "additionalProperties": false
-      },
       "LoginToChatbotRequest": {
         "type": "object",
         "properties": {
@@ -30960,54 +30694,6 @@
         ],
         "type": "integer",
         "format": "int32"
-      },
-      "SignupRequest": {
-        "required": [
-          "acceptedTerms",
-          "email",
-          "firstName",
-          "lastName",
-          "organizationName"
-        ],
-        "type": "object",
-        "properties": {
-          "email": {
-            "minLength": 1,
-            "type": "string",
-            "format": "email"
-          },
-          "firstName": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
-          },
-          "lastName": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
-          },
-          "organizationName": {
-            "maxLength": 200,
-            "minLength": 1,
-            "type": "string"
-          },
-          "planId": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "acceptedTerms": {
-            "type": "boolean"
-          },
-          "token": {
-            "type": "string",
-            "nullable": true
-          },
-          "countryIsoCode": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
       },
       "StructLayoutAttribute": {
         "type": "object",
