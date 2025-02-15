@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Hyperleap",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,748 +18,657 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:gopi@hyperleap.ai"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://studio.hyperleapai.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Pricing",
+      "icon": "dollar-sign",
+      "url": "https://hyperleapai.com/pricing"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "About Hyperleap",
+      "icon": "address-card",
+      "url": "https://hyperleapai.com"
     }
   ],
   "navigation": [
+
     {
-      "group": "Get Started",
+      "group": "AppConversationRuns",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "api-reference/appconversationruns/get-apiconversation-runs",
+        "api-reference/appconversationruns/get-conversation-runs",
+        "api-reference/appconversationruns/get-apiconversation-runs-1",
+        "api-reference/appconversationruns/get-conversation-runs-1",
+        "api-reference/appconversationruns/get-apiconversation-runspersona",
+        "api-reference/appconversationruns/get-conversation-runspersona"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Prompts",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-1",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-2",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-3",
+        "api-reference/prompts/run-prompt-non-streaming",
+        "api-reference/prompts/run-prompt-non-streaming-1",
+        "api-reference/prompts/run-prompt-http2-streaming",
+        "api-reference/prompts/run-prompt-http2-streaming-1",
+        "api-reference/prompts/run-prompt-http2-streaming-2",
+        "api-reference/prompts/run-prompt-http2-streaming-3",
+        "api-reference/prompts/run-prompt-http2-streaming-4",
+        "api-reference/prompts/run-prompt-http2-streaming-5",
+        "api-reference/prompts/run-prompt-sse-streaming",
+        "api-reference/prompts/run-prompt-sse-streaming-1",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-4",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-5",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-6",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-7",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-8",
+        "api-reference/prompts/run-prompt-streaming-and-non-streaming-9",
+        "api-reference/prompts/run-prompt-non-streaming-2",
+        "api-reference/prompts/run-prompt-non-streaming-3",
+        "api-reference/prompts/run-prompt-non-streaming-4",
+        "api-reference/prompts/run-prompt-http2-streaming-6",
+        "api-reference/prompts/run-prompt-http2-streaming-7",
+        "api-reference/prompts/run-prompt-http2-streaming-8",
+        "api-reference/prompts/run-prompt-http2-streaming-9",
+        "api-reference/prompts/run-prompt-http2-streaming-10",
+        "api-reference/prompts/run-prompt-http2-streaming-11",
+        "api-reference/prompts/run-prompt-http2-streaming-12",
+        "api-reference/prompts/run-prompt-http2-streaming-13",
+        "api-reference/prompts/run-prompt-http2-streaming-14",
+        "api-reference/prompts/run-prompt-sse-streaming-2",
+        "api-reference/prompts/run-prompt-sse-streaming-3",
+        "api-reference/prompts/run-prompt-sse-streaming-4",
+        "api-reference/prompts/get-apiprompts",
+        "api-reference/prompts/post-apiprompts",
+        "api-reference/prompts/delete-apiprompts",
+        "api-reference/prompts/patch-apiprompts",
+        "api-reference/prompts/get-apiprompts-1",
+        "api-reference/prompts/post-apiprompts-1",
+        "api-reference/prompts/get-apipromptsminimal",
+        "api-reference/prompts/delete-apiprompts-",
+        "api-reference/prompts/patch-apiprompts-"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Capture Feedback",
       "pages": [
-        "api-reference/introduction"
+        "api-reference/capture-feedback/set-prompt-run-score",
+        "api-reference/capture-feedback/set-prompt-run-score-1",
+        "api-reference/capture-feedback/set-conversation-score",
+        "api-reference/capture-feedback/set-conversation-score-1",
+        "api-reference/capture-feedback/set-messages-score",
+        "api-reference/capture-feedback/set-messages-score-1",
+        "api-reference/capture-feedback/set-prompt-run-score-2",
+        "api-reference/capture-feedback/set-prompt-run-score-3",
+        "api-reference/capture-feedback/set-prompt-run-score-4"
       ]
     },
-      {
-        "group": "App",
-        "pages": [
-          "api-reference/app/get-app-config",
-          "api-reference/app/get-appapp-config"
-        ]
-      },
-      {
-        "group": "Audit Report",
-        "pages": [
-          "api-reference/audit-report/conversations",
-          "api-reference/audit-report/conversations-1",
-          "api-reference/audit-report/conversations-2",
-          "api-reference/audit-report/prompt-runs",
-          "api-reference/audit-report/prompt-runs-1",
-          "api-reference/audit-report/prompt-runs-2",
-          "api-reference/audit-report/tool-runs",
-          "api-reference/audit-report/tool-runs-1",
-          "api-reference/audit-report/tool-runs-2",
-          "api-reference/audit-report/conversation-runs",
-          "api-reference/audit-report/conversation-runs-1",
-          "api-reference/audit-report/conversation-runs-2",
-          "api-reference/audit-report/gpt-runs",
-          "api-reference/audit-report/gpt-runs-1",
-          "api-reference/audit-report/gpt-runs-2",
-          "api-reference/audit-report/chatbot-runs",
-          "api-reference/audit-report/chatbot-runs-1",
-          "api-reference/audit-report/chatbot-runs-2",
-          "api-reference/audit-report/prompt-run-details",
-          "api-reference/audit-report/prompt-run-details-1",
-          "api-reference/audit-report/prompt-run-details-2",
-          "api-reference/audit-report/conversation-run-details",
-          "api-reference/audit-report/conversation-run-details-1",
-          "api-reference/audit-report/conversation-run-details-2",
-          "api-reference/audit-report/gpt-run-details",
-          "api-reference/audit-report/gpt-run-details-1",
-          "api-reference/audit-report/gpt-run-details-2",
-          "api-reference/audit-report/chatbot-run-details",
-          "api-reference/audit-report/chatbot-run-details-1",
-          "api-reference/audit-report/chatbot-run-details-2",
-          "api-reference/audit-report/tool-run-details",
-          "api-reference/audit-report/tool-run-details-1",
-          "api-reference/audit-report/tool-run-details-2"
-        ]
-      },
-      {
-        "group": "AppAudit",
-        "pages": [
-          "api-reference/appaudit/post-auditgpt-conversations",
-          "api-reference/appaudit/post-apiauditgpt-conversations",
-          "api-reference/appaudit/post-appauditgpt-conversations",
-          "api-reference/appaudit/post-auditchatbot-conversations",
-          "api-reference/appaudit/post-apiauditchatbot-conversations",
-          "api-reference/appaudit/post-appauditchatbot-conversations"
-        ]
-      },
-      {
-        "group": "AppConversationRuns",
-        "pages": [
-          "api-reference/appconversationruns/get-apiconversation-runs",
-          "api-reference/appconversationruns/get-conversation-runs",
-          "api-reference/appconversationruns/get-apiconversation-runs-1",
-          "api-reference/appconversationruns/get-conversation-runs-1",
-          "api-reference/appconversationruns/get-apiconversation-runspersona",
-          "api-reference/appconversationruns/get-conversation-runspersona"
-        ]
-      },
-      {
-        "group": "Prompts",
-        "pages": [
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-1",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-2",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-3",
-          "api-reference/prompts/run-prompt-non-streaming",
-          "api-reference/prompts/run-prompt-non-streaming-1",
-          "api-reference/prompts/run-prompt-http2-streaming",
-          "api-reference/prompts/run-prompt-http2-streaming-1",
-          "api-reference/prompts/run-prompt-http2-streaming-2",
-          "api-reference/prompts/run-prompt-http2-streaming-3",
-          "api-reference/prompts/run-prompt-http2-streaming-4",
-          "api-reference/prompts/run-prompt-http2-streaming-5",
-          "api-reference/prompts/run-prompt-sse-streaming",
-          "api-reference/prompts/run-prompt-sse-streaming-1",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-4",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-5",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-6",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-7",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-8",
-          "api-reference/prompts/run-prompt-streaming-and-non-streaming-9",
-          "api-reference/prompts/run-prompt-non-streaming-2",
-          "api-reference/prompts/run-prompt-non-streaming-3",
-          "api-reference/prompts/run-prompt-non-streaming-4",
-          "api-reference/prompts/run-prompt-http2-streaming-6",
-          "api-reference/prompts/run-prompt-http2-streaming-7",
-          "api-reference/prompts/run-prompt-http2-streaming-8",
-          "api-reference/prompts/run-prompt-http2-streaming-9",
-          "api-reference/prompts/run-prompt-http2-streaming-10",
-          "api-reference/prompts/run-prompt-http2-streaming-11",
-          "api-reference/prompts/run-prompt-http2-streaming-12",
-          "api-reference/prompts/run-prompt-http2-streaming-13",
-          "api-reference/prompts/run-prompt-http2-streaming-14",
-          "api-reference/prompts/run-prompt-sse-streaming-2",
-          "api-reference/prompts/run-prompt-sse-streaming-3",
-          "api-reference/prompts/run-prompt-sse-streaming-4",
-          "api-reference/prompts/get-apiprompts",
-          "api-reference/prompts/post-apiprompts",
-          "api-reference/prompts/delete-apiprompts",
-          "api-reference/prompts/patch-apiprompts",
-          "api-reference/prompts/get-apiprompts-1",
-          "api-reference/prompts/post-apiprompts-1",
-          "api-reference/prompts/get-apipromptsminimal",
-          "api-reference/prompts/delete-apiprompts-",
-          "api-reference/prompts/patch-apiprompts-"
-        ]
-      },
-      {
-        "group": "Capture Feedback",
-        "pages": [
-          "api-reference/capture-feedback/set-prompt-run-score",
-          "api-reference/capture-feedback/set-prompt-run-score-1",
-          "api-reference/capture-feedback/set-conversation-score",
-          "api-reference/capture-feedback/set-conversation-score-1",
-          "api-reference/capture-feedback/set-messages-score",
-          "api-reference/capture-feedback/set-messages-score-1",
-          "api-reference/capture-feedback/set-prompt-run-score-2",
-          "api-reference/capture-feedback/set-prompt-run-score-3",
-          "api-reference/capture-feedback/set-prompt-run-score-4"
-        ]
-      },
-      {
-        "group": "Conversations",
-        "pages": [
-          "api-reference/conversations/get-all-conversations",
-          "api-reference/conversations/create-a-general-conversation",
-          "api-reference/conversations/get-all-conversations-1",
-          "api-reference/conversations/create-a-general-conversation-1",
-          "api-reference/conversations/create-a-persona-conversation",
-          "api-reference/conversations/create-a-persona-conversation-1",
-          "api-reference/conversations/continue-http2-streaming",
-          "api-reference/conversations/continue-http2-streaming-1",
-          "api-reference/conversations/continue-http2-streaming-2",
-          "api-reference/conversations/continue-http2-streaming-3",
-          "api-reference/conversations/continue-sse-streaming",
-          "api-reference/conversations/continue-sse-streaming-1",
-          "api-reference/conversations/continue-sse-streaming-2",
-          "api-reference/conversations/continue-sse-streaming-3",
-          "api-reference/conversations/continue-chat",
-          "api-reference/conversations/continue-chat-1",
-          "api-reference/conversations/continue-chat-2",
-          "api-reference/conversations/continue-chat-3",
-          "api-reference/conversations/get-specific-conversation",
-          "api-reference/conversations/get-specific-conversation-1",
-          "api-reference/conversations/set-conversation-as-active",
-          "api-reference/conversations/set-conversation-as-active-1",
-          "api-reference/conversations/set-conversations-metadata",
-          "api-reference/conversations/set-conversations-metadata-1",
-          "api-reference/conversations/set-conversations-name",
-          "api-reference/conversations/set-conversations-name-1",
-          "api-reference/conversations/set-conversations-status",
-          "api-reference/conversations/set-conversations-status-1",
-          "api-reference/conversations/set-messages-score",
-          "api-reference/conversations/set-messages-score-1",
-          "api-reference/conversations/get-all-conversations-with-a-persona",
-          "api-reference/conversations/get-all-conversations-with-a-persona-1",
-          "api-reference/conversations/get-all-conversations-not-attached-with-a-persona",
-          "api-reference/conversations/get-all-conversations-not-attached-with-a-persona-1",
-          "api-reference/conversations/get-all-conversations-attached-with-any-persona",
-          "api-reference/conversations/get-all-conversations-attached-with-any-persona-1",
-          "api-reference/conversations/get-user-conversations",
-          "api-reference/conversations/get-user-conversations-1"
-        ]
-      },
-      {
-        "group": "AppConversations",
-        "pages": [
-          "api-reference/appconversations/patch-apiconversations-update",
-          "api-reference/appconversations/patch-conversations-update"
-        ]
-      },
-      {
-        "group": "Feedback Report",
-        "pages": [
-          "api-reference/feedback-report/conversations",
-          "api-reference/feedback-report/conversations-1",
-          "api-reference/feedback-report/conversations-2",
-          "api-reference/feedback-report/prompt-runs",
-          "api-reference/feedback-report/prompt-runs-1",
-          "api-reference/feedback-report/prompt-runs-2"
-        ]
-      },
-      {
-        "group": "Moderations",
-        "pages": [
-          "api-reference/moderations/moderations-check",
-          "api-reference/moderations/moderations-check-1"
-        ]
-      },
-      {
-        "group": "AppPromptRuns",
-        "pages": [
-          "api-reference/apppromptruns/get-apiprompt-runs",
-          "api-reference/apppromptruns/get-apirun",
-          "api-reference/apppromptruns/get-prompt-runs",
-          "api-reference/apppromptruns/get-apiprompt-runs-1",
-          "api-reference/apppromptruns/get-apirun-1",
-          "api-reference/apppromptruns/get-prompt-runs-1",
-          "api-reference/apppromptruns/get-apiprompt-runsprompt",
-          "api-reference/apppromptruns/get-apirunprompt",
-          "api-reference/apppromptruns/get-prompt-runsprompt"
-        ]
-      },
-      {
-        "group": "Auth",
-        "pages": [
-          "api-reference/auth/post-apiauthrequest-login",
-          "api-reference/auth/post-apiauthrequest-join",
-          "api-reference/auth/get-apiauthget-email",
-          "api-reference/auth/post-apiauthrequest-signup",
-          "api-reference/auth/post-apiauthcomplete-signup",
-          "api-reference/auth/post-apiauthauthenticate",
-          "api-reference/auth/post-apiauthrefresh-credentials",
-          "api-reference/auth/post-apiauthrevoke-credentials"
-        ]
-      },
-      {
-        "group": "ChatbotConversations",
-        "pages": [
-          "api-reference/chatbotconversations/get-apichatbot-conversations",
-          "api-reference/chatbotconversations/post-apichatbot-conversations",
-          "api-reference/chatbotconversations/post-apichatbot-conversationschatbot",
-          "api-reference/chatbotconversations/post-apichatbot-conversations-send-otp",
-          "api-reference/chatbotconversations/post-apichatbot-conversations-authenticate",
-          "api-reference/chatbotconversations/post-apichatbot-conversations-chat",
-          "api-reference/chatbotconversations/patch-apichatbot-conversations-chat",
-          "api-reference/chatbotconversations/post-apichatbot-conversations-chat-sync",
-          "api-reference/chatbotconversations/patch-apichatbot-conversations-chat-sync",
-          "api-reference/chatbotconversations/patch-apichatbot-conversations-chat-http2",
-          "api-reference/chatbotconversations/patch-apichatbot-conversations-chat-sse",
-          "api-reference/chatbotconversations/get-apichatbot-conversations-",
-          "api-reference/chatbotconversations/get-apichatbot-conversations-1",
-          "api-reference/chatbotconversations/delete-apichatbot-conversations",
-          "api-reference/chatbotconversations/patch-apichatbot-conversations-update",
-          "api-reference/chatbotconversations/patch-apichatbot-conversations-update-score",
-          "api-reference/chatbotconversations/get-apichatbot-conversationschatbot",
-          "api-reference/chatbotconversations/get-apichatbot-conversationschatbotany",
-          "api-reference/chatbotconversations/get-apichatbot-conversationschatbotnone"
-        ]
-      },
-      {
-        "group": "Chatbots",
-        "pages": [
-          "api-reference/chatbots/get-apichatbots",
-          "api-reference/chatbots/delete-apichatbots",
-          "api-reference/chatbots/patch-apichatbots",
-          "api-reference/chatbots/get-apichatbots-leads",
-          "api-reference/chatbots/get-apichatbotspublic",
-          "api-reference/chatbots/get-apichatbots-1",
-          "api-reference/chatbots/post-apichatbots",
-          "api-reference/chatbots/get-apichatbotsminimal"
-        ]
-      },
-      {
-        "group": "Credits",
-        "pages": [
-          "api-reference/credits/post-apicreditspurchase"
-        ]
-      },
-      {
-        "group": "Dashboard",
-        "pages": [
-          "api-reference/dashboard/get-apidashboard"
-        ]
-      },
-      {
-        "group": "Data",
-        "pages": [
-          "api-reference/data/delete-apidata"
-        ]
-      },
-      {
-        "group": "DataspaceDocuments",
-        "pages": [
-          "api-reference/dataspacedocuments/post-apidataspace-documents",
-          "api-reference/dataspacedocuments/post-apidataspace-documents-ask",
-          "api-reference/dataspacedocuments/post-apidataspace-documents-search",
-          "api-reference/dataspacedocuments/get-apidataspace-documents-download",
-          "api-reference/dataspacedocuments/get-apidataspace-documents-status",
-          "api-reference/dataspacedocuments/patch-apidataspace-documents-status",
-          "api-reference/dataspacedocuments/delete-apidataspace-documents"
-        ]
-      },
-      {
-        "group": "DataspaceImages",
-        "pages": [
-          "api-reference/dataspaceimages/post-apidataspace-images",
-          "api-reference/dataspaceimages/post-apidataspace-images-ask",
-          "api-reference/dataspaceimages/post-apidataspace-images-search",
-          "api-reference/dataspaceimages/post-apidataspace-images-download",
-          "api-reference/dataspaceimages/get-apidataspace-images-status",
-          "api-reference/dataspaceimages/patch-apidataspace-images-status",
-          "api-reference/dataspaceimages/delete-apidataspace-images"
-        ]
-      },
-      {
-        "group": "Dataspaces",
-        "pages": [
-          "api-reference/dataspaces/get-apidataspaces",
-          "api-reference/dataspaces/delete-apidataspaces",
-          "api-reference/dataspaces/patch-apidataspaces",
-          "api-reference/dataspaces/get-apidataspaces-1",
-          "api-reference/dataspaces/post-apidataspaces",
-          "api-reference/dataspaces/get-apidataspacescount",
-          "api-reference/dataspaces/get-apidataspacessearch",
-          "api-reference/dataspaces/get-apidataspacessearchcount",
-          "api-reference/dataspaces/get-apidataspaceseditable",
-          "api-reference/dataspaces/get-apidataspacesarchived",
-          "api-reference/dataspaces/post-apidataspaces-ask",
-          "api-reference/dataspaces/post-apidataspaces-search",
-          "api-reference/dataspaces/get-apidataspaces-dataspace-documents",
-          "api-reference/dataspaces/get-apidataspaces-dataspace-strings",
-          "api-reference/dataspaces/get-apidataspaces-dataspace-images",
-          "api-reference/dataspaces/get-apidataspaces-dataspace-websites"
-        ]
-      },
-      {
-        "group": "DataspaceStrings",
-        "pages": [
-          "api-reference/dataspacestrings/post-apidataspace-strings",
-          "api-reference/dataspacestrings/get-apidataspace-strings",
-          "api-reference/dataspacestrings/delete-apidataspace-strings",
-          "api-reference/dataspacestrings/get-apidataspace-strings-status",
-          "api-reference/dataspacestrings/patch-apidataspace-strings-status",
-          "api-reference/dataspacestrings/post-apidataspace-strings-ask",
-          "api-reference/dataspacestrings/post-apidataspace-strings-search"
-        ]
-      },
-      {
-        "group": "DataspaceUsers",
-        "pages": [
-          "api-reference/dataspaceusers/get-apidataspace-users",
-          "api-reference/dataspaceusers/post-apidataspace-users",
-          "api-reference/dataspaceusers/get-apidataspace-users-",
-          "api-reference/dataspaceusers/delete-apidataspace-users-",
-          "api-reference/dataspaceusers/post-apidataspace-users-1",
-          "api-reference/dataspaceusers/patch-apidataspace-users-update-role",
-          "api-reference/dataspaceusers/patch-apidataspace-users-leave"
-        ]
-      },
-      {
-        "group": "DataspaceWebsites",
-        "pages": [
-          "api-reference/dataspacewebsites/post-apidataspace-websites",
-          "api-reference/dataspacewebsites/patch-apidataspace-websites-re-process",
-          "api-reference/dataspacewebsites/get-apidataspace-websites",
-          "api-reference/dataspacewebsites/delete-apidataspace-websites",
-          "api-reference/dataspacewebsites/get-apidataspace-websites-status",
-          "api-reference/dataspacewebsites/patch-apidataspace-websites-status",
-          "api-reference/dataspacewebsites/post-apidataspace-websites-ask",
-          "api-reference/dataspacewebsites/post-apidataspace-websites-search"
-        ]
-      },
-      {
-        "group": "Events",
-        "pages": [
-          "api-reference/events/post-apievents"
-        ]
-      },
-      {
-        "group": "Files",
-        "pages": [
-          "api-reference/files/post-apifiles",
-          "api-reference/files/get-apifiles"
-        ]
-      },
-      {
-        "group": "GlobalWorkspaces",
-        "pages": [
-          "api-reference/globalworkspaces/get-apiglobal-workspaces"
-        ]
-      },
-      {
-        "group": "GptConversations",
-        "pages": [
-          "api-reference/gptconversations/get-apigpt-conversations",
-          "api-reference/gptconversations/post-apigpt-conversations",
-          "api-reference/gptconversations/post-apigpt-conversationsgpt",
-          "api-reference/gptconversations/patch-apigpt-conversations-chat-http2",
-          "api-reference/gptconversations/patch-apigpt-conversations-chat-sse",
-          "api-reference/gptconversations/patch-apigpt-conversations-chat",
-          "api-reference/gptconversations/patch-apigpt-conversations-chat-sync",
-          "api-reference/gptconversations/get-apigpt-conversations-1",
-          "api-reference/gptconversations/delete-apigpt-conversations",
-          "api-reference/gptconversations/patch-apigpt-conversations-update",
-          "api-reference/gptconversations/patch-apigpt-conversations-update-score",
-          "api-reference/gptconversations/get-apigpt-conversationsgpt",
-          "api-reference/gptconversations/get-apigpt-conversationsgptany",
-          "api-reference/gptconversations/get-apigpt-conversationsgptnone"
-        ]
-      },
-      {
-        "group": "Gpts",
-        "pages": [
-          "api-reference/gpts/get-apigpts",
-          "api-reference/gpts/delete-apigpts",
-          "api-reference/gpts/patch-apigpts",
-          "api-reference/gpts/get-apigpts-1",
-          "api-reference/gpts/post-apigpts",
-          "api-reference/gpts/get-apigptsminimal"
-        ]
-      },
-      {
-        "group": "HttpRequest",
-        "pages": [
-          "api-reference/httprequest/get-apihttp-requests"
-        ]
-      },
-      {
-        "group": "Images",
-        "pages": [
-          "api-reference/images/post-apiimages",
-          "api-reference/images/get-apiimages"
-        ]
-      },
-      {
-        "group": "ManageOrganization",
-        "pages": [
-          "api-reference/manageorganization/get-manageorganization",
-          "api-reference/manageorganization/patch-manageorganization"
-        ]
-      },
-      {
-        "group": "ManageOrganizationConfigurations",
-        "pages": [
-          "api-reference/manageorganizationconfigurations/get-manageorg-configurations",
-          "api-reference/manageorganizationconfigurations/post-manageorg-configurations",
-          "api-reference/manageorganizationconfigurations/patch-manageorg-configurations",
-          "api-reference/manageorganizationconfigurations/get-manageorg-configurationskey",
-          "api-reference/manageorganizationconfigurations/get-manageorg-configurationskey-name",
-          "api-reference/manageorganizationconfigurations/delete-manageorg-configurations"
-        ]
-      },
-      {
-        "group": "ManageOrganizationDomains",
-        "pages": [
-          "api-reference/manageorganizationdomains/get-manageorganization-domains",
-          "api-reference/manageorganizationdomains/post-manageorganization-domains",
-          "api-reference/manageorganizationdomains/patch-manageorganization-domains",
-          "api-reference/manageorganizationdomains/delete-manageorganization-domains"
-        ]
-      },
-      {
-        "group": "ManageOrganizationInvites",
-        "pages": [
-          "api-reference/manageorganizationinvites/get-manageorganization-invites",
-          "api-reference/manageorganizationinvites/post-manageorganization-invites",
-          "api-reference/manageorganizationinvites/delete-manageorganization-invites",
-          "api-reference/manageorganizationinvites/patch-manageorganization-invites"
-        ]
-      },
-      {
-        "group": "ManageOrganizationKeys",
-        "pages": [
-          "api-reference/manageorganizationkeys/get-manageorganization-keys",
-          "api-reference/manageorganizationkeys/get-manageorganization-keys-1",
-          "api-reference/manageorganizationkeys/post-manageorganization-keys",
-          "api-reference/manageorganizationkeys/patch-manageorganization-keys"
-        ]
-      },
-      {
-        "group": "ManageOrganizationSubscription",
-        "pages": [
-          "api-reference/manageorganizationsubscription/post-manageorganization-subscription"
-        ]
-      },
-      {
-        "group": "ManageOrganizationUsers",
-        "pages": [
-          "api-reference/manageorganizationusers/get-manageorganization-users",
-          "api-reference/manageorganizationusers/get-manageorganization-users-1",
-          "api-reference/manageorganizationusers/delete-manageorganization-users",
-          "api-reference/manageorganizationusers/patch-manageorganization-users",
-          "api-reference/manageorganizationusers/post-manageorganization-users-assign"
-        ]
-      },
-      {
-        "group": "ManageProfile",
-        "pages": [
-          "api-reference/manageprofile/get-manageprofile",
-          "api-reference/manageprofile/patch-manageprofile"
-        ]
-      },
-      {
-        "group": "Onboarding",
-        "pages": [
-          "api-reference/onboarding/post-apionboarding"
-        ]
-      },
-      {
-        "group": "PaddleEvents",
-        "pages": [
-          "api-reference/paddleevents/post-apipaddle-events"
-        ]
-      },
-      {
-        "group": "Personas",
-        "pages": [
-          "api-reference/personas/get-apipersonas",
-          "api-reference/personas/post-apipersonas",
-          "api-reference/personas/delete-apipersonas",
-          "api-reference/personas/patch-apipersonas",
-          "api-reference/personas/get-apipersonas-1",
-          "api-reference/personas/post-apipersonas-1",
-          "api-reference/personas/get-apipersonasminimal",
-          "api-reference/personas/patch-apipersonas-"
-        ]
-      },
-      {
-        "group": "Playground",
-        "pages": [
-          "api-reference/playground/post-apiplayground",
-          "api-reference/playground/post-apiplaygroundsync",
-          "api-reference/playground/post-apiplaygroundexecute",
-          "api-reference/playground/post-apiplaygroundasync",
-          "api-reference/playground/post-apiplaygroundstream",
-          "api-reference/playground/post-apiplaygroundhttp2-stream",
-          "api-reference/playground/post-apiplaygroundsse-stream",
-          "api-reference/playground/post-apiplaygroundsse"
-        ]
-      },
-      {
-        "group": "PublicImages",
-        "pages": [
-          "api-reference/publicimages/post-apipublic-images",
-          "api-reference/publicimages/get-apipublic-images"
-        ]
-      },
-      {
-        "group": "ReportsConversationRunFeedbacks",
-        "pages": [
-          "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksdaily",
-          "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksweekly",
-          "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksmonthly",
-          "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksyearly"
-        ]
-      },
-      {
-        "group": "ReportsConversationRuns",
-        "pages": [
-          "api-reference/reportsconversationruns/get-apireportsconversation-runsdaily",
-          "api-reference/reportsconversationruns/get-apireportsconversation-runsweekly",
-          "api-reference/reportsconversationruns/get-apireportsconversation-runsmonthly",
-          "api-reference/reportsconversationruns/get-apireportsconversation-runsyearly"
-        ]
-      },
-      {
-        "group": "ReportsDimDates",
-        "pages": [
-          "api-reference/reportsdimdates/get-apireportsdim-datesmonths",
-          "api-reference/reportsdimdates/get-apireportsdim-datesweeks",
-          "api-reference/reportsdimdates/get-apireportsdim-datesall"
-        ]
-      },
-      {
-        "group": "ReportsPromptRunFeedbacks",
-        "pages": [
-          "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksdaily",
-          "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksweekly",
-          "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksmonthly",
-          "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksyearly"
-        ]
-      },
-      {
-        "group": "ReportsPromptRuns",
-        "pages": [
-          "api-reference/reportspromptruns/get-apireportsprompt-runsdaily",
-          "api-reference/reportspromptruns/get-apireportsprompt-runsweekly",
-          "api-reference/reportspromptruns/get-apireportsprompt-runsmonthly",
-          "api-reference/reportspromptruns/get-apireportsprompt-runsyearly"
-        ]
-      },
-      {
-        "group": "ReportsPrompts",
-        "pages": [
-          "api-reference/reportsprompts/get-apireportspromptsdaily",
-          "api-reference/reportsprompts/get-apireportspromptsweekly",
-          "api-reference/reportsprompts/get-apireportspromptsmonthly",
-          "api-reference/reportsprompts/get-apireportspromptsyearly"
-        ]
-      },
-      {
-        "group": "ReportsUsers",
-        "pages": [
-          "api-reference/reportsusers/get-apireportsusersdaily",
-          "api-reference/reportsusers/get-apireportsusersweekly",
-          "api-reference/reportsusers/get-apireportsusersmonthly",
-          "api-reference/reportsusers/get-apireportsusersyearly"
-        ]
-      },
-      {
-        "group": "ReportsWorkspaces",
-        "pages": [
-          "api-reference/reportsworkspaces/get-apireportsworkspacesdaily",
-          "api-reference/reportsworkspaces/get-apireportsworkspacesweekly",
-          "api-reference/reportsworkspaces/get-apireportsworkspacesmonthly",
-          "api-reference/reportsworkspaces/get-apireportsworkspacesyearly"
-        ]
-      },
-      {
-        "group": "ToolRuns",
-        "pages": [
-          "api-reference/toolruns/get-apitool-runs",
-          "api-reference/toolruns/get-apitool-runs-1",
-          "api-reference/toolruns/post-apitool-runs",
-          "api-reference/toolruns/get-apitool-runstool",
-          "api-reference/toolruns/patch-apitool-runs-update-score",
-          "api-reference/toolruns/post-apitool-runssync",
-          "api-reference/toolruns/post-apitool-runsexecute",
-          "api-reference/toolruns/post-apitool-runsasync",
-          "api-reference/toolruns/post-apitool-runshttp2-stream",
-          "api-reference/toolruns/post-apitool-runssse",
-          "api-reference/toolruns/post-apitool-runssse-stream"
-        ]
-      },
-      {
-        "group": "Tools",
-        "pages": [
-          "api-reference/tools/get-apitools",
-          "api-reference/tools/delete-apitools",
-          "api-reference/tools/patch-apitools",
-          "api-reference/tools/get-apitools-1",
-          "api-reference/tools/post-apitools",
-          "api-reference/tools/get-apitoolsminimal"
-        ]
-      },
-      {
-        "group": "Utilities",
-        "pages": [
-          "api-reference/utilities/get-apiutilities",
-          "api-reference/utilities/post-apiutilities",
-          "api-reference/utilities/patch-apiutilities",
-          "api-reference/utilities/get-apiutilities-1",
-          "api-reference/utilities/get-apiutilitiesglobal",
-          "api-reference/utilities/post-apiutilitiesrun"
-        ]
-      },
-      {
-        "group": "WorkspacePersonas",
-        "pages": [
-          "api-reference/workspacepersonas/post-apiworkspace-personas"
-        ]
-      },
-      {
-        "group": "WorkspacePrompts",
-        "pages": [
-          "api-reference/workspaceprompts/post-apiworkspace-prompts"
-        ]
-      },
-      {
-        "group": "Workspaces",
-        "pages": [
-          "api-reference/workspaces/get-apiworkspaces",
-          "api-reference/workspaces/delete-apiworkspaces",
-          "api-reference/workspaces/patch-apiworkspaces",
-          "api-reference/workspaces/get-apiworkspaces-1",
-          "api-reference/workspaces/post-apiworkspaces",
-          "api-reference/workspaces/get-apiworkspacesminimal"
-        ]
-      },
-      {
-        "group": "WorkspaceUsers",
-        "pages": [
-          "api-reference/workspaceusers/get-apiworkspace-users",
-          "api-reference/workspaceusers/post-apiworkspace-users",
-          "api-reference/workspaceusers/get-apiworkspace-users-",
-          "api-reference/workspaceusers/post-apiworkspace-users-1",
-          "api-reference/workspaceusers/patch-apiworkspace-usersupdate-role",
-          "api-reference/workspaceusers/patch-apiworkspace-usersleave",
-          "api-reference/workspaceusers/delete-apiworkspace-users-"
-        ]
-      }
-    
+    {
+      "group": "Conversations",
+      "pages": [
+        "api-reference/conversations/get-all-conversations",
+        "api-reference/conversations/create-a-general-conversation",
+        "api-reference/conversations/get-all-conversations-1",
+        "api-reference/conversations/create-a-general-conversation-1",
+        "api-reference/conversations/create-a-persona-conversation",
+        "api-reference/conversations/create-a-persona-conversation-1",
+        "api-reference/conversations/continue-http2-streaming",
+        "api-reference/conversations/continue-http2-streaming-1",
+        "api-reference/conversations/continue-http2-streaming-2",
+        "api-reference/conversations/continue-http2-streaming-3",
+        "api-reference/conversations/continue-sse-streaming",
+        "api-reference/conversations/continue-sse-streaming-1",
+        "api-reference/conversations/continue-sse-streaming-2",
+        "api-reference/conversations/continue-sse-streaming-3",
+        "api-reference/conversations/continue-chat",
+        "api-reference/conversations/continue-chat-1",
+        "api-reference/conversations/continue-chat-2",
+        "api-reference/conversations/continue-chat-3",
+        "api-reference/conversations/get-specific-conversation",
+        "api-reference/conversations/get-specific-conversation-1",
+        "api-reference/conversations/set-conversation-as-active",
+        "api-reference/conversations/set-conversation-as-active-1",
+        "api-reference/conversations/set-conversations-metadata",
+        "api-reference/conversations/set-conversations-metadata-1",
+        "api-reference/conversations/set-conversations-name",
+        "api-reference/conversations/set-conversations-name-1",
+        "api-reference/conversations/set-conversations-status",
+        "api-reference/conversations/set-conversations-status-1",
+        "api-reference/conversations/set-messages-score",
+        "api-reference/conversations/set-messages-score-1",
+        "api-reference/conversations/get-all-conversations-with-a-persona",
+        "api-reference/conversations/get-all-conversations-with-a-persona-1",
+        "api-reference/conversations/get-all-conversations-not-attached-with-a-persona",
+        "api-reference/conversations/get-all-conversations-not-attached-with-a-persona-1",
+        "api-reference/conversations/get-all-conversations-attached-with-any-persona",
+        "api-reference/conversations/get-all-conversations-attached-with-any-persona-1",
+        "api-reference/conversations/get-user-conversations",
+        "api-reference/conversations/get-user-conversations-1"
+      ]
+    },
+    {
+      "group": "AppConversations",
+      "pages": [
+        "api-reference/appconversations/patch-apiconversations-update",
+        "api-reference/appconversations/patch-conversations-update"
+      ]
+    },
+    {
+      "group": "Feedback Report",
+      "pages": [
+        "api-reference/feedback-report/conversations",
+        "api-reference/feedback-report/conversations-1",
+        "api-reference/feedback-report/conversations-2",
+        "api-reference/feedback-report/prompt-runs",
+        "api-reference/feedback-report/prompt-runs-1",
+        "api-reference/feedback-report/prompt-runs-2"
+      ]
+    },
+    {
+      "group": "Moderations",
+      "pages": [
+        "api-reference/moderations/moderations-check",
+        "api-reference/moderations/moderations-check-1"
+      ]
+    },
+    {
+      "group": "AppPromptRuns",
+      "pages": [
+        "api-reference/apppromptruns/get-apiprompt-runs",
+        "api-reference/apppromptruns/get-apirun",
+        "api-reference/apppromptruns/get-prompt-runs",
+        "api-reference/apppromptruns/get-apiprompt-runs-1",
+        "api-reference/apppromptruns/get-apirun-1",
+        "api-reference/apppromptruns/get-prompt-runs-1",
+        "api-reference/apppromptruns/get-apiprompt-runsprompt",
+        "api-reference/apppromptruns/get-apirunprompt",
+        "api-reference/apppromptruns/get-prompt-runsprompt"
+      ]
+    },
+    {
+      "group": "Auth",
+      "pages": [
+        "api-reference/auth/post-apiauthrequest-login",
+        "api-reference/auth/post-apiauthrequest-join",
+        "api-reference/auth/get-apiauthget-email",
+        "api-reference/auth/post-apiauthrequest-signup",
+        "api-reference/auth/post-apiauthcomplete-signup",
+        "api-reference/auth/post-apiauthauthenticate",
+        "api-reference/auth/post-apiauthrefresh-credentials",
+        "api-reference/auth/post-apiauthrevoke-credentials"
+      ]
+    },
+    {
+      "group": "ChatbotConversations",
+      "pages": [
+        "api-reference/chatbotconversations/get-apichatbot-conversations",
+        "api-reference/chatbotconversations/post-apichatbot-conversations",
+        "api-reference/chatbotconversations/post-apichatbot-conversationschatbot",
+        "api-reference/chatbotconversations/post-apichatbot-conversations-send-otp",
+        "api-reference/chatbotconversations/post-apichatbot-conversations-authenticate",
+        "api-reference/chatbotconversations/post-apichatbot-conversations-chat",
+        "api-reference/chatbotconversations/patch-apichatbot-conversations-chat",
+        "api-reference/chatbotconversations/post-apichatbot-conversations-chat-sync",
+        "api-reference/chatbotconversations/patch-apichatbot-conversations-chat-sync",
+        "api-reference/chatbotconversations/patch-apichatbot-conversations-chat-http2",
+        "api-reference/chatbotconversations/patch-apichatbot-conversations-chat-sse",
+        "api-reference/chatbotconversations/get-apichatbot-conversations-",
+        "api-reference/chatbotconversations/get-apichatbot-conversations-1",
+        "api-reference/chatbotconversations/delete-apichatbot-conversations",
+        "api-reference/chatbotconversations/patch-apichatbot-conversations-update",
+        "api-reference/chatbotconversations/patch-apichatbot-conversations-update-score",
+        "api-reference/chatbotconversations/get-apichatbot-conversationschatbot",
+        "api-reference/chatbotconversations/get-apichatbot-conversationschatbotany",
+        "api-reference/chatbotconversations/get-apichatbot-conversationschatbotnone"
+      ]
+    },
+    {
+      "group": "Chatbots",
+      "pages": [
+        "api-reference/chatbots/get-apichatbots",
+        "api-reference/chatbots/delete-apichatbots",
+        "api-reference/chatbots/patch-apichatbots",
+        "api-reference/chatbots/get-apichatbots-leads",
+        "api-reference/chatbots/get-apichatbotspublic",
+        "api-reference/chatbots/get-apichatbots-1",
+        "api-reference/chatbots/post-apichatbots",
+        "api-reference/chatbots/get-apichatbotsminimal"
+      ]
+    },
+    {
+      "group": "Credits",
+      "pages": [
+        "api-reference/credits/post-apicreditspurchase"
+      ]
+    },
+    {
+      "group": "Dashboard",
+      "pages": [
+        "api-reference/dashboard/get-apidashboard"
+      ]
+    },
+    {
+      "group": "Data",
+      "pages": [
+        "api-reference/data/delete-apidata"
+      ]
+    },
+    {
+      "group": "DataspaceDocuments",
+      "pages": [
+        "api-reference/dataspacedocuments/post-apidataspace-documents",
+        "api-reference/dataspacedocuments/post-apidataspace-documents-ask",
+        "api-reference/dataspacedocuments/post-apidataspace-documents-search",
+        "api-reference/dataspacedocuments/get-apidataspace-documents-download",
+        "api-reference/dataspacedocuments/get-apidataspace-documents-status",
+        "api-reference/dataspacedocuments/patch-apidataspace-documents-status",
+        "api-reference/dataspacedocuments/delete-apidataspace-documents"
+      ]
+    },
+    {
+      "group": "DataspaceImages",
+      "pages": [
+        "api-reference/dataspaceimages/post-apidataspace-images",
+        "api-reference/dataspaceimages/post-apidataspace-images-ask",
+        "api-reference/dataspaceimages/post-apidataspace-images-search",
+        "api-reference/dataspaceimages/post-apidataspace-images-download",
+        "api-reference/dataspaceimages/get-apidataspace-images-status",
+        "api-reference/dataspaceimages/patch-apidataspace-images-status",
+        "api-reference/dataspaceimages/delete-apidataspace-images"
+      ]
+    },
+    {
+      "group": "Dataspaces",
+      "pages": [
+        "api-reference/dataspaces/get-apidataspaces",
+        "api-reference/dataspaces/delete-apidataspaces",
+        "api-reference/dataspaces/patch-apidataspaces",
+        "api-reference/dataspaces/get-apidataspaces-1",
+        "api-reference/dataspaces/post-apidataspaces",
+        "api-reference/dataspaces/get-apidataspacescount",
+        "api-reference/dataspaces/get-apidataspacessearch",
+        "api-reference/dataspaces/get-apidataspacessearchcount",
+        "api-reference/dataspaces/get-apidataspaceseditable",
+        "api-reference/dataspaces/get-apidataspacesarchived",
+        "api-reference/dataspaces/post-apidataspaces-ask",
+        "api-reference/dataspaces/post-apidataspaces-search",
+        "api-reference/dataspaces/get-apidataspaces-dataspace-documents",
+        "api-reference/dataspaces/get-apidataspaces-dataspace-strings",
+        "api-reference/dataspaces/get-apidataspaces-dataspace-images",
+        "api-reference/dataspaces/get-apidataspaces-dataspace-websites"
+      ]
+    },
+    {
+      "group": "DataspaceStrings",
+      "pages": [
+        "api-reference/dataspacestrings/post-apidataspace-strings",
+        "api-reference/dataspacestrings/get-apidataspace-strings",
+        "api-reference/dataspacestrings/delete-apidataspace-strings",
+        "api-reference/dataspacestrings/get-apidataspace-strings-status",
+        "api-reference/dataspacestrings/patch-apidataspace-strings-status",
+        "api-reference/dataspacestrings/post-apidataspace-strings-ask",
+        "api-reference/dataspacestrings/post-apidataspace-strings-search"
+      ]
+    },
+    {
+      "group": "DataspaceUsers",
+      "pages": [
+        "api-reference/dataspaceusers/get-apidataspace-users",
+        "api-reference/dataspaceusers/post-apidataspace-users",
+        "api-reference/dataspaceusers/get-apidataspace-users-",
+        "api-reference/dataspaceusers/delete-apidataspace-users-",
+        "api-reference/dataspaceusers/post-apidataspace-users-1",
+        "api-reference/dataspaceusers/patch-apidataspace-users-update-role",
+        "api-reference/dataspaceusers/patch-apidataspace-users-leave"
+      ]
+    },
+    {
+      "group": "DataspaceWebsites",
+      "pages": [
+        "api-reference/dataspacewebsites/post-apidataspace-websites",
+        "api-reference/dataspacewebsites/patch-apidataspace-websites-re-process",
+        "api-reference/dataspacewebsites/get-apidataspace-websites",
+        "api-reference/dataspacewebsites/delete-apidataspace-websites",
+        "api-reference/dataspacewebsites/get-apidataspace-websites-status",
+        "api-reference/dataspacewebsites/patch-apidataspace-websites-status",
+        "api-reference/dataspacewebsites/post-apidataspace-websites-ask",
+        "api-reference/dataspacewebsites/post-apidataspace-websites-search"
+      ]
+    },
+    {
+      "group": "Events",
+      "pages": [
+        "api-reference/events/post-apievents"
+      ]
+    },
+    {
+      "group": "Files",
+      "pages": [
+        "api-reference/files/post-apifiles",
+        "api-reference/files/get-apifiles"
+      ]
+    },
+    {
+      "group": "GlobalWorkspaces",
+      "pages": [
+        "api-reference/globalworkspaces/get-apiglobal-workspaces"
+      ]
+    },
+    {
+      "group": "GptConversations",
+      "pages": [
+        "api-reference/gptconversations/get-apigpt-conversations",
+        "api-reference/gptconversations/post-apigpt-conversations",
+        "api-reference/gptconversations/post-apigpt-conversationsgpt",
+        "api-reference/gptconversations/patch-apigpt-conversations-chat-http2",
+        "api-reference/gptconversations/patch-apigpt-conversations-chat-sse",
+        "api-reference/gptconversations/patch-apigpt-conversations-chat",
+        "api-reference/gptconversations/patch-apigpt-conversations-chat-sync",
+        "api-reference/gptconversations/get-apigpt-conversations-1",
+        "api-reference/gptconversations/delete-apigpt-conversations",
+        "api-reference/gptconversations/patch-apigpt-conversations-update",
+        "api-reference/gptconversations/patch-apigpt-conversations-update-score",
+        "api-reference/gptconversations/get-apigpt-conversationsgpt",
+        "api-reference/gptconversations/get-apigpt-conversationsgptany",
+        "api-reference/gptconversations/get-apigpt-conversationsgptnone"
+      ]
+    },
+    {
+      "group": "Gpts",
+      "pages": [
+        "api-reference/gpts/get-apigpts",
+        "api-reference/gpts/delete-apigpts",
+        "api-reference/gpts/patch-apigpts",
+        "api-reference/gpts/get-apigpts-1",
+        "api-reference/gpts/post-apigpts",
+        "api-reference/gpts/get-apigptsminimal"
+      ]
+    },
+    {
+      "group": "HttpRequest",
+      "pages": [
+        "api-reference/httprequest/get-apihttp-requests"
+      ]
+    },
+    {
+      "group": "Images",
+      "pages": [
+        "api-reference/images/post-apiimages",
+        "api-reference/images/get-apiimages"
+      ]
+    },
+    {
+      "group": "ManageOrganization",
+      "pages": [
+        "api-reference/manageorganization/get-manageorganization",
+        "api-reference/manageorganization/patch-manageorganization"
+      ]
+    },
+    {
+      "group": "ManageOrganizationConfigurations",
+      "pages": [
+        "api-reference/manageorganizationconfigurations/get-manageorg-configurations",
+        "api-reference/manageorganizationconfigurations/post-manageorg-configurations",
+        "api-reference/manageorganizationconfigurations/patch-manageorg-configurations",
+        "api-reference/manageorganizationconfigurations/get-manageorg-configurationskey",
+        "api-reference/manageorganizationconfigurations/get-manageorg-configurationskey-name",
+        "api-reference/manageorganizationconfigurations/delete-manageorg-configurations"
+      ]
+    },
+    {
+      "group": "ManageOrganizationDomains",
+      "pages": [
+        "api-reference/manageorganizationdomains/get-manageorganization-domains",
+        "api-reference/manageorganizationdomains/post-manageorganization-domains",
+        "api-reference/manageorganizationdomains/patch-manageorganization-domains",
+        "api-reference/manageorganizationdomains/delete-manageorganization-domains"
+      ]
+    },
+    {
+      "group": "ManageOrganizationInvites",
+      "pages": [
+        "api-reference/manageorganizationinvites/get-manageorganization-invites",
+        "api-reference/manageorganizationinvites/post-manageorganization-invites",
+        "api-reference/manageorganizationinvites/delete-manageorganization-invites",
+        "api-reference/manageorganizationinvites/patch-manageorganization-invites"
+      ]
+    },
+    {
+      "group": "ManageOrganizationKeys",
+      "pages": [
+        "api-reference/manageorganizationkeys/get-manageorganization-keys",
+        "api-reference/manageorganizationkeys/get-manageorganization-keys-1",
+        "api-reference/manageorganizationkeys/post-manageorganization-keys",
+        "api-reference/manageorganizationkeys/patch-manageorganization-keys"
+      ]
+    },
+    {
+      "group": "ManageOrganizationSubscription",
+      "pages": [
+        "api-reference/manageorganizationsubscription/post-manageorganization-subscription"
+      ]
+    },
+    {
+      "group": "ManageOrganizationUsers",
+      "pages": [
+        "api-reference/manageorganizationusers/get-manageorganization-users",
+        "api-reference/manageorganizationusers/get-manageorganization-users-1",
+        "api-reference/manageorganizationusers/delete-manageorganization-users",
+        "api-reference/manageorganizationusers/patch-manageorganization-users",
+        "api-reference/manageorganizationusers/post-manageorganization-users-assign"
+      ]
+    },
+    {
+      "group": "ManageProfile",
+      "pages": [
+        "api-reference/manageprofile/get-manageprofile",
+        "api-reference/manageprofile/patch-manageprofile"
+      ]
+    },
+    {
+      "group": "Onboarding",
+      "pages": [
+        "api-reference/onboarding/post-apionboarding"
+      ]
+    },
+    {
+      "group": "PaddleEvents",
+      "pages": [
+        "api-reference/paddleevents/post-apipaddle-events"
+      ]
+    },
+    {
+      "group": "Personas",
+      "pages": [
+        "api-reference/personas/get-apipersonas",
+        "api-reference/personas/post-apipersonas",
+        "api-reference/personas/delete-apipersonas",
+        "api-reference/personas/patch-apipersonas",
+        "api-reference/personas/get-apipersonas-1",
+        "api-reference/personas/post-apipersonas-1",
+        "api-reference/personas/get-apipersonasminimal",
+        "api-reference/personas/patch-apipersonas-"
+      ]
+    },
+    {
+      "group": "Playground",
+      "pages": [
+        "api-reference/playground/post-apiplayground",
+        "api-reference/playground/post-apiplaygroundsync",
+        "api-reference/playground/post-apiplaygroundexecute",
+        "api-reference/playground/post-apiplaygroundasync",
+        "api-reference/playground/post-apiplaygroundstream",
+        "api-reference/playground/post-apiplaygroundhttp2-stream",
+        "api-reference/playground/post-apiplaygroundsse-stream",
+        "api-reference/playground/post-apiplaygroundsse"
+      ]
+    },
+    {
+      "group": "PublicImages",
+      "pages": [
+        "api-reference/publicimages/post-apipublic-images",
+        "api-reference/publicimages/get-apipublic-images"
+      ]
+    },
+    {
+      "group": "ReportsConversationRunFeedbacks",
+      "pages": [
+        "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksdaily",
+        "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksweekly",
+        "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksmonthly",
+        "api-reference/reportsconversationrunfeedbacks/get-apireportsconversation-run-feedbacksyearly"
+      ]
+    },
+    {
+      "group": "ReportsConversationRuns",
+      "pages": [
+        "api-reference/reportsconversationruns/get-apireportsconversation-runsdaily",
+        "api-reference/reportsconversationruns/get-apireportsconversation-runsweekly",
+        "api-reference/reportsconversationruns/get-apireportsconversation-runsmonthly",
+        "api-reference/reportsconversationruns/get-apireportsconversation-runsyearly"
+      ]
+    },
+    {
+      "group": "ReportsDimDates",
+      "pages": [
+        "api-reference/reportsdimdates/get-apireportsdim-datesmonths",
+        "api-reference/reportsdimdates/get-apireportsdim-datesweeks",
+        "api-reference/reportsdimdates/get-apireportsdim-datesall"
+      ]
+    },
+    {
+      "group": "ReportsPromptRunFeedbacks",
+      "pages": [
+        "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksdaily",
+        "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksweekly",
+        "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksmonthly",
+        "api-reference/reportspromptrunfeedbacks/get-apireportsprompt-run-feedbacksyearly"
+      ]
+    },
+    {
+      "group": "ReportsPromptRuns",
+      "pages": [
+        "api-reference/reportspromptruns/get-apireportsprompt-runsdaily",
+        "api-reference/reportspromptruns/get-apireportsprompt-runsweekly",
+        "api-reference/reportspromptruns/get-apireportsprompt-runsmonthly",
+        "api-reference/reportspromptruns/get-apireportsprompt-runsyearly"
+      ]
+    },
+    {
+      "group": "ReportsPrompts",
+      "pages": [
+        "api-reference/reportsprompts/get-apireportspromptsdaily",
+        "api-reference/reportsprompts/get-apireportspromptsweekly",
+        "api-reference/reportsprompts/get-apireportspromptsmonthly",
+        "api-reference/reportsprompts/get-apireportspromptsyearly"
+      ]
+    },
+    {
+      "group": "ReportsUsers",
+      "pages": [
+        "api-reference/reportsusers/get-apireportsusersdaily",
+        "api-reference/reportsusers/get-apireportsusersweekly",
+        "api-reference/reportsusers/get-apireportsusersmonthly",
+        "api-reference/reportsusers/get-apireportsusersyearly"
+      ]
+    },
+    {
+      "group": "ReportsWorkspaces",
+      "pages": [
+        "api-reference/reportsworkspaces/get-apireportsworkspacesdaily",
+        "api-reference/reportsworkspaces/get-apireportsworkspacesweekly",
+        "api-reference/reportsworkspaces/get-apireportsworkspacesmonthly",
+        "api-reference/reportsworkspaces/get-apireportsworkspacesyearly"
+      ]
+    },
+    {
+      "group": "ToolRuns",
+      "pages": [
+        "api-reference/toolruns/get-apitool-runs",
+        "api-reference/toolruns/get-apitool-runs-1",
+        "api-reference/toolruns/post-apitool-runs",
+        "api-reference/toolruns/get-apitool-runstool",
+        "api-reference/toolruns/patch-apitool-runs-update-score",
+        "api-reference/toolruns/post-apitool-runssync",
+        "api-reference/toolruns/post-apitool-runsexecute",
+        "api-reference/toolruns/post-apitool-runsasync",
+        "api-reference/toolruns/post-apitool-runshttp2-stream",
+        "api-reference/toolruns/post-apitool-runssse",
+        "api-reference/toolruns/post-apitool-runssse-stream"
+      ]
+    },
+    {
+      "group": "Tools",
+      "pages": [
+        "api-reference/tools/get-apitools",
+        "api-reference/tools/delete-apitools",
+        "api-reference/tools/patch-apitools",
+        "api-reference/tools/get-apitools-1",
+        "api-reference/tools/post-apitools",
+        "api-reference/tools/get-apitoolsminimal"
+      ]
+    },
+    {
+      "group": "Utilities",
+      "pages": [
+        "api-reference/utilities/get-apiutilities",
+        "api-reference/utilities/post-apiutilities",
+        "api-reference/utilities/patch-apiutilities",
+        "api-reference/utilities/get-apiutilities-1",
+        "api-reference/utilities/get-apiutilitiesglobal",
+        "api-reference/utilities/post-apiutilitiesrun"
+      ]
+    },
+    {
+      "group": "WorkspacePersonas",
+      "pages": [
+        "api-reference/workspacepersonas/post-apiworkspace-personas"
+      ]
+    },
+    {
+      "group": "WorkspacePrompts",
+      "pages": [
+        "api-reference/workspaceprompts/post-apiworkspace-prompts"
+      ]
+    },
+    {
+      "group": "Workspaces",
+      "pages": [
+        "api-reference/workspaces/get-apiworkspaces",
+        "api-reference/workspaces/delete-apiworkspaces",
+        "api-reference/workspaces/patch-apiworkspaces",
+        "api-reference/workspaces/get-apiworkspaces-1",
+        "api-reference/workspaces/post-apiworkspaces",
+        "api-reference/workspaces/get-apiworkspacesminimal"
+      ]
+    },
+    {
+      "group": "WorkspaceUsers",
+      "pages": [
+        "api-reference/workspaceusers/get-apiworkspace-users",
+        "api-reference/workspaceusers/post-apiworkspace-users",
+        "api-reference/workspaceusers/get-apiworkspace-users-",
+        "api-reference/workspaceusers/post-apiworkspace-users-1",
+        "api-reference/workspaceusers/patch-apiworkspace-usersupdate-role",
+        "api-reference/workspaceusers/patch-apiworkspace-usersleave",
+        "api-reference/workspaceusers/delete-apiworkspace-users-"
+      ]
+    }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "linkedin": "https://linkedin.com/company/hyperleapai"
   }
 }
